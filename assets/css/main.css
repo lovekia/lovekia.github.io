@@ -3715,3 +3715,9 @@ input, select, textarea {
   width: 5rem;
   pointer-events: none;   /* don't block hover/clicks */
 }
+
+/* for landscape */
+.gallery .image.w80x40 {
+  width: 80rem !important;   /* for landscape */
+  height: 100% !important;   /* fill height of the gallery row */
+}
